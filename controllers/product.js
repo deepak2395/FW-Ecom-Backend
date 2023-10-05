@@ -1,5 +1,5 @@
 var Products = require('../models/product')
-var { getUniqueID } = require('../helpers/utils')
+var { getUniqueID } =  require('../utils/utils')
 
 function getProduct(req, res) {
     return new Promise((resolve, reject) => {

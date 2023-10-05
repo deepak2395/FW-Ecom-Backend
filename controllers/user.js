@@ -1,5 +1,5 @@
 var UserDetails = require('../models/user')
-var { getUniqueID } = require('../helpers/utils')
+var { getUniqueID } = require('../utils/utils')
 
 function getUser(req, res) {
     return new Promise((resolve, reject) => {

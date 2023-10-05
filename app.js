@@ -38,7 +38,7 @@ app.use('/auth', authRouter);
 
 
 mongoose.connect(
-  `mongodb+srv://Deepak:deepak002@cluster0.hzikei0.mongodb.net/brightlight?retryWrites=true&w=majority`,
+  `mongodb+srv://Deepak:deepak00@cluster0.hzikei0.mongodb.net/brightlight?retryWrites=true&w=majority`,
   {
     useNewUrlParser: true,
     useUnifiedTopology: true

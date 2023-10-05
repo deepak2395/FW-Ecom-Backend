@@ -1,6 +1,6 @@
 var Carts = require('../models/cart')
 var User = require('../models/cart')
-var { getUniqueID } = require('../helpers/utils')
+var { getUniqueID } = require('../utils/utils')
 
 var { getProduct } = require('../controllers/product')
 

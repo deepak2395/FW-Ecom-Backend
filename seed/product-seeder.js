@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 var Product = require('../models/product')
-var { getUniqueID } = require('../helpers/utils')
+var { getUniqueID } = require('../utils/utils')
 /*  const fs = require('fs')
 const path = require('path')
 const contents = fs.readFileSync(path.join(__dirname, '..', '/resources/images/sparkles.jpg'), "base64")

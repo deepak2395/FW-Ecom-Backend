@@ -1,5 +1,5 @@
 var Orders = require('../models/order')
-var { getUniqueID } = require('../helpers/utils')
+var { getUniqueID } = require('../utils/utils')
 
 var { getCartDetails } = require('../controllers/cart')
 
@@ -26,7 +26,7 @@ function createOrder(req, res) {
     return new Promise(async (resolve, reject) => {
         console.log('modifyOrder Req Body', req.body)
         let { user_id, address, items, billAmount, paymentId, trackingUrl, statusCode = 1 } = req.body
-       // let cartDetails = getCartDetails(req, res)
+        // let cartDetails = getCartDetails(req, res)
         // let billAmount = cartDetails.data.billAmount
         // let CartItems = cartDetails.data
 
